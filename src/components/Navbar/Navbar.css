@@ -1,0 +1,73 @@
+/* Estilos para el Navbar */
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #bca99e;
+  border-bottom: 3px solid #322d1e;
+  transition: background-color 0.3s;
+  padding: 15px;
+  z-index: 1;
+
+  text-align: center;
+}
+
+.navbar-custom:hover {
+  background-color: #BCA99E(0, 0, 0, 0.9);
+}
+
+.navbar-brand-custom {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #221f15;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  /* border: 2px solid pink; */
+  margin-left: 10px;
+}
+
+.navbar-brand-custom:hover {
+  color: #585357;
+}
+
+.nav-link-custom {
+  /* position: relative; */
+  /* right: 20px; */
+  text-align: right;
+  font-size: 25px;
+
+  padding: 1px 25px;
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "Bebas Neue";
+  color: #e3e1e6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #585357;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-custom {
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    padding: 10px 0;
+  }
+
+  .navbar-brand-custom {
+    font-size: 24px;
+    position: relative;
+    left: 8px;
+  }
+
+  .nav-link-custom {
+    position: relative;
+    font-size: 20px;
+    right: 5px;
+    padding: 8px 15px;
+    margin-right: 0px;
+  }
+}

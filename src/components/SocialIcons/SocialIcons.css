@@ -1,0 +1,38 @@
+/* Estilos para la sección de redes sociales */
+#redes {
+  background-color: #333;
+  padding: 30px 8px;
+  color: #fff;
+}
+
+#redes h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: "texto";
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-box {
+  position: relative;
+  width: 150px; /* Tamaño del cuadro de icono */
+  height: 50px; /* Tamaño del cuadro de icono */
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.social-icon-box:hover {
+  transform: scale(1.25); /* Efecto de acercamiento al pasar el cursor */
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #fff;
+
+  margin-top: 13px;
+}

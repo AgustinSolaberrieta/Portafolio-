@@ -1,0 +1,85 @@
+.home-section {
+  background-color: #547480;
+  background-image: url("./codigo-fondo.png");
+  padding: 100px 0;
+  color: #312c36;
+  font-family: "texto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.portfolio-description {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  animation: floatAnimation 2s infinite alternate;
+}
+
+.name-animation {
+  font-size: 40px;
+  font-family: "Bebas Neue";
+  margin-right: 10px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.4); /* Sombra del texto */
+}
+
+.role {
+  font-size: 35px;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 20px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra del texto */
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px); /* Movimiento más rápido */
+  }
+}
+
+.profile-image {
+  width: 250px; /* Tamaño de la imagen */
+  height: 280px; /* Tamaño de la imagen */
+  border: 2px solid #d7d4d4; /* Borde negro */
+  border-radius: 50px; /* Borde redondeado para hacer un círculo */
+  box-shadow: 0 4px 8px #312c36; /* Sombreado */
+  margin-top: 0px; /* Espacio entre la imagen y el nombre */
+}
+
+/* Estilos para el botón de descarga */
+.download-button {
+  background-color: #fff;
+  color: #bca99e;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #bca99e;
+  color: #fff;
+  border-color: #312c36;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .name-animation {
+    font-size: 28px; /* Reducir tamaño de la fuente */
+  }
+
+  .role {
+    font-size: 16px; /* Reducir tamaño de la fuente */
+  }
+}
