@@ -9,15 +9,19 @@
   padding: 15px;
   z-index: 1;
 
-  text-align: center;
+  text-align: left;
 }
 
 .navbar-custom:hover {
   background-color: #BCA99E(0, 0, 0, 0.9);
 }
 
+.ml-auto {
+  text-align: right;
+  margin-right: 5%;
+}
 .navbar-brand-custom {
-  font-size: 28px;
+  font-size: 208%;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #221f15;
@@ -25,7 +29,7 @@
   transition: color 0.3s;
 
   /* border: 2px solid pink; */
-  margin-left: 10px;
+  margin-left: 5%;
 }
 
 .navbar-brand-custom:hover {
@@ -54,13 +58,19 @@
 @media (max-width: 768px) {
   .navbar-custom {
     /* background-color: rgba(0, 0, 0, 0.9); */
-    padding: 10px 0;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
   }
 
   .navbar-brand-custom {
     font-size: 24px;
     position: relative;
-    left: 8px;
+    left: -14px;
+  }
+  .ml-auto {
+    margin: 0;
+    text-align: center;
   }
 
   .nav-link-custom {

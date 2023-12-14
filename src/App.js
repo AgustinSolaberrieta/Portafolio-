@@ -3,7 +3,7 @@ import { FaArrowDown } from "react-icons/fa";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
-import Languages from "./components/Languages/Languages";
+import Languages from "./components/Tecnologias/Tecnologias";
 import SocialIcons from "./components/SocialIcons/SocialIcons";
 import "./App.css";
 
@@ -40,7 +40,7 @@ function App() {
       <Languages />
       <Projects />
       <SocialIcons />
-      {/* Icono flotante de flecha para hacer scroll */}
+      {/*  flecha para hacer scroll */}
       <div
         className={`arrow-icon ${showArrowIcon ? "" : "hidden"}`}
         onClick={scrollToBottom}

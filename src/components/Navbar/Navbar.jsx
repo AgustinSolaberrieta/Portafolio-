@@ -30,9 +30,12 @@ const CustomNavbar = () => {
   return (
     <Navbar className="navbar-custom" bg="dark" variant="dark">
       <Navbar.Brand className="navbar-brand-custom" href="#inicio">
-        SOBRE MI
+        AS
       </Navbar.Brand>
       <Nav className="ml-auto">
+        <Navbar.Brand className="nav-link-custom" href="#inicio">
+          SOBRE MI
+        </Navbar.Brand>
         <Nav.Link className="nav-link-custom" href="#lenguajes">
           TECNOLOGIAS
         </Nav.Link>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Languages.css";
+import "./Tecnologias.css";
 import {
   FaHtml5,
   FaCss3Alt,
