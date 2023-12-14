@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./Navbar.css";
-import cv from "../Navbar/AGUSTINASOLABERRIETACV(1).pdf";
 
 const CustomNavbar = () => {
   useEffect(() => {
