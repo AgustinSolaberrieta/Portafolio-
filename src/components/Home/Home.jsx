@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import foto from "./rostroP.jpg";
-import cv from "../Navbar/AGUSTINASOLABERRIETACV(1).pdf";
+import cv from "../Navbar/AGUSTINA SOLABERRIETA-.pdf";
 import { FaDownload } from "react-icons/fa";
 
 const Home = () => {
